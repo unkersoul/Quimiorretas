@@ -1,10 +1,10 @@
 user: unkersoul
 pwd:  07210721a
 
-
+ 
 Para subir cambios
-1º commit to master
-2º push
+1º commit to master desde menu contextual
+2º push desde git sync
 
 para bajar cambios
-1º pull
+1º pull desde git sync
