@@ -1,0 +1,10 @@
+user: unkersoul
+pwd:  07210721a
+
+
+Para subir cambios
+1º commit to master
+2º push
+
+para bajar cambios
+1º pull
