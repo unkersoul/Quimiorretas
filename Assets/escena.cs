@@ -6,8 +6,8 @@ public class escena : MonoBehaviour {
 		private bichicho bicho;
 	// Use this for initialization
 	void Start () {
-			gameObject.AddComponent ("bichicho");
-	}
+			Instantiate (bicho, new Vector3 (1, 1,-2), Quaternion.identity);
+		}
 	
 	// Update is called once per frame
 	void Update () {

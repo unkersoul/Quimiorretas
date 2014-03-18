@@ -12,6 +12,7 @@ using System.Collections;
 namespace juego{
 	public class bichicho: MonoBehaviour 
 		{	
+		public static Transform posicionBicho;
 		private SpriteRenderer renderBicho;
 		private tipo_bicho tipo;
 		private int pv;
@@ -34,16 +35,19 @@ namespace juego{
 		
 		public IEnumerator Start () {
 			renderBicho = gameObject.GetComponent<SpriteRenderer>();
+			tipo = new tipo_bicho ();	 
 			WWW www = new WWW(tipo.Sprites[0]);
 			yield return www; 
 			Sprite sprite = new Sprite();
 			sprite = Sprite.Create(www.texture, new Rect(0, 0, 60, 60),new Vector2(0, 0),100.0f);
-			
+
 			renderBicho.sprite = sprite;
+
 		}
 		
 		// Update is called once per frame
 		void Update () {
+			posicionBicho = renderBicho.transform;
 			if (renderBicho.transform.position.y > -1.47) {
 				renderBicho.transform.Translate (Vector3.right * Time.deltaTime * 2);
 						} else {

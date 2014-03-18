@@ -14,7 +14,7 @@ public class canon : MonoBehaviour {
 			 float rotZ;
 			
 		
-				diff = bicho.posicionBicho.position- transform.position;
+				diff = bichicho.posicionBicho.position- transform.position;
 				//normalize difference  
 				diff.Normalize();
 				

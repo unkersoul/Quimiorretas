@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\escena.cs">
+    <Files>
+      <File FileName="Assets\bichicho.cs" Line="50" Column="31" />
+      <File FileName="Assets\tipo_bicho.cs" Line="29" Column="1" />
+      <File FileName="Assets\canon.cs" Line="27" Column="2" />
+      <File FileName="Assets\escena.cs" Line="21" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

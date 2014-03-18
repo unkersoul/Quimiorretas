@@ -18,7 +18,7 @@ namespace juego{
 				public tipo_bicho ()
 				{
 					sprites = new string[1];
-					sprites[0] = "file://D:\\torretas\\Assets\\bicho.psd";
+					sprites[0] = "file://D:\\copia\\nueva\\Assets\\bicho.psd";
 				}
 				public string[] Sprites {
 						get{ return sprites;}
