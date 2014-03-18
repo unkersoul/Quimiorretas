@@ -10,19 +10,18 @@
 using UnityEngine;
 using System.Collections;
 namespace juego{
-	public class tipo_bicho: MonoBehaviour 
+	public class tipo_bicho
 		{
-		private string[] sprites;
-		private string[] sound;
+		private float cd;
 		private int quimica;
 				public tipo_bicho ()
 				{
-					sprites = new string[1];
-					sprites[0] = "file://D:\\copia\\nueva\\Assets\\bicho.psd";
+					
 				}
-				public string[] Sprites {
-						get{ return sprites;}
+		public float Cd {
+						get{ return cd;}
 				}
+
 		}
 }
 

@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\bichicho.cs" />
-     <Compile Include="Assets\bicho.cs" />
      <Compile Include="Assets\canon.cs" />
      <Compile Include="Assets\escena.cs" />
      <Compile Include="Assets\point.cs" />
